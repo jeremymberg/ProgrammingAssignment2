@@ -6,9 +6,10 @@
 ## The second function calculates the inverse of the matrix but first
 ## checks to see if the inverse has already been calculated and cached.
 ## In this case, it returns the cached inverse and notes that this is 
-## a cached response
+## a cached response. This is analogous to the cachemean as an example.
 
-## Write a short comment describing this function
+## This function generates a "matrix" including an associate object
+## corresponding to its inverse called "inv"
 
 makeCacheMatrix <- function(x = matrix()) {
 
